@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    
+}
+
+.container button{
+    padding: 0.5rem;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    border-inline: 1px solid white;
+    color: white;
+}
+
+.arrow{
+    width: 15px;
+    height: 8px;
+    background: #000;
+    margin-inline: auto;
+    clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
